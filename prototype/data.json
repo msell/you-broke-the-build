@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    {
+      "name": "GitHub",
+      "status": "up"
+    },
+    {
+      "name": "NPM",
+      "status": "up"
+    },
+    {
+      "name": "Bower",
+      "status": "up"
+    },
+    {
+      "name": "Nuget",
+      "status": "up"
+    },
+    {
+      "name": "OT Nuget",
+      "status": "up"
+    }
+  ],
+  "projects": [
+    {
+      "name":"Enterprise Services",
+      "branches":[
+        {
+          "name" : "master",
+          "status": "success",
+          "buildNumber": "1.2.1.2122"          
+        },
+        {
+          "name" : "dev",
+          "status": "fail",
+          "buildNumber": "1.2.1.2124"        
+        }        
+      ],      
+    },
+    {
+      "name":"Billing2",
+      "branches":[
+        {
+          "name" : "master",
+          "status": "success",
+          "buildNumber": "1.2.1.433"          
+        },
+        {
+          "name" : "dev",
+          "status": "success",
+          "buildNumber": "1.2.1.432"        
+        }        
+      ],      
+    }
+  ]
+}
