@@ -23,34 +23,34 @@
   ],
   "projects": [
     {
-      "name":"Enterprise Services",
-      "branches":[
+      "name": "Enterprise Services",
+      "branches": [
         {
-          "name" : "master",
+          "name": "master",
           "status": "success",
-          "buildNumber": "1.2.1.2122"          
+          "buildNumber": "1.2.1.2122"
         },
         {
-          "name" : "dev",
+          "name": "dev",
           "status": "fail",
-          "buildNumber": "1.2.1.2124"        
-        }        
-      ],      
+          "buildNumber": "1.2.1.2124"
+        }
+      ]
     },
     {
-      "name":"Billing2",
-      "branches":[
+      "name": "Billing2",
+      "branches": [
         {
-          "name" : "master",
+          "name": "master",
           "status": "success",
-          "buildNumber": "1.2.1.433"          
+          "buildNumber": "1.2.1.433"
         },
         {
-          "name" : "dev",
+          "name": "dev",
           "status": "success",
-          "buildNumber": "1.2.1.432"        
-        }        
-      ],      
+          "buildNumber": "1.2.1.432"
+        }
+      ]
     }
   ]
 }
